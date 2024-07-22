@@ -8,8 +8,8 @@ npm install
 npm run browsersync
 
 # Compile Tailwind CSS
-npm run build
 
+npm run build
 # Compile Tailwind CSS minified
 npm run build-minify
 
