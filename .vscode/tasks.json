@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build-minify",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build-minify",
+			"detail": "tailwindcss build -i src/styles.css -o assets/css/theme.min.css --minify"
+		},
+		{
+			"type": "npm",
+			"script": "browsersync",
+			"problemMatcher": [],
+			"label": "npm: browsersync",
+			"detail": "browser-sync start --directory --server --files --startPath index.html"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "tailwindcss build -i src/styles.css -o assets/css/theme.css"
+		}
+	]
+}
